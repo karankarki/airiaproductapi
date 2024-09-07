@@ -1,0 +1,87 @@
+/* Default styles for larger screens */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.search_bar input {
+    font-size: 22px;
+    border: 2px solid #04AA6D;
+    width: 45%;
+    border-radius: 8px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.dropsDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 8px;
+    gap: 20px; /* Space between the dropdowns */
+    align-items: center; /* Align items vertically */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .navbar {
+        width: 90%;
+        font-size: 20px; /* Adjust font size for tablets */
+    }
+
+    .search_bar input {
+        width: 60%; /* Adjust width for tablets */
+        font-size: 20px; /* Adjust font size for tablets */
+    }
+
+    .dropsDown {
+        flex-direction: column; /* Stack dropdowns vertically */
+        padding: 10px;
+        gap: 10px; /* Space between the stacked dropdowns */
+    }
+
+    .dropsDown div {
+        width: 100%; /* Ensure full width for each dropdown container */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 18px; /* Further reduce font size for mobile screens */
+        width: 95%;
+    }
+
+    .search_bar input {
+        width: 80%; /* Adjust width for mobile screens */
+        font-size: 18px; /* Adjust font size for mobile screens */
+    }
+
+    .dropsDown {
+        flex-direction: column; /* Stack dropdowns vertically */
+        gap: 15px; /* Adjust space between dropdowns for mobile screens */
+    }
+
+    .dropsDown div {
+        width: 100%; /* Ensure full width for mobile screens */
+    }
+
+    .dropsDown select {
+        font-size: 16px; /* Adjust font size for mobile screens */
+    }
+}

@@ -1,0 +1,43 @@
+/* Default styles for larger screens */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.numbers_ {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    justify-content: space-around;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .numbers_ {
+        width: 90%;
+        grid-template-columns: repeat(12, 50px); /* Adjust number of columns and size */
+    }
+}
+
+@media (max-width: 768px) {
+    .numbers_ {
+        width: 95%;
+        grid-template-columns: repeat(8, 40px); /* Further adjust number of columns and size */
+        gap: 5px; /* Space between pagination items */
+    }
+}
+
+@media (max-width: 480px) {
+    .numbers_ {
+        width: 100%;
+        grid-template-columns: repeat(8, 40px); /* Further adjust number of columns and size */
+        gap: 5px; /* Space between pagination items */
+    }
+
+    .pagination {
+        flex-direction: column; /* Stack pagination items vertically on very small screens */
+    }
+}

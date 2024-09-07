@@ -38,7 +38,8 @@ Pagination is implemented to efficiently display a limited number of rows per pa
 <img width="1470" alt="Screenshot 2024-09-07 at 3 04 42 PM" src="https://github.com/user-attachments/assets/2dd6511e-2bc5-49c9-a470-7bef0b472451">
 
 
-<img width="1470" alt="Screenshot 2024-09-07 at 3 04 42 PM" src="https://github.com/user-attachments/assets/7b4631d1-3d9f-48ba-9290-132fa00de229">
+<img width="1368" alt="Screenshot 2024-09-07 at 3 05 03 PM" src="https://github.com/user-attachments/assets/f9889d06-ec6d-4178-9ba3-88a70b9e8f5b">
+
 
 
 <img width="915" alt="Screenshot 2024-09-07 at 3 07 55 PM" src="https://github.com/user-attachments/assets/408b54ec-e348-45d2-b8ee-2d5384d61b53">
